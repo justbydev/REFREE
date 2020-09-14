@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginBottom="30sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아침"
+                android:textColor="#0000FF"
+                android:textSize="20sp"
+                android:background="#D0A9F5"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="입력 없음"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:clickable="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="점심"
+                android:textColor="#0000FF"
+                android:textSize="20sp"
+                android:background="#D0A9F5"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/lunch"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="입력 없음"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:clickable="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="저녁"
+                android:textColor="#0000FF"
+                android:textSize="20sp"
+                android:background="#D0A9F5"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/dinner"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:text="입력 없음"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:clickable="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mypage"
+        android:title="마이"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mycook"
+        android:title="내요리"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/record"
+        android:title="기록"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/recommend"
+        android:title="추천"
+        app:showAsAction="always"/>
+</menu>

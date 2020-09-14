@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953980278014",
+    "firebase_url": "https://refree-f824c.firebaseio.com",
+    "project_id": "refree-f824c",
+    "storage_bucket": "refree-f824c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953980278014:android:bc168c2ae79620351081af",
+        "android_client_info": {
+          "package_name": "com.mylife.refree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953980278014-i44c24a4poc45ani94i33r9u00mbn6n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mylife.refree",
+            "certificate_hash": "d21f4debaa099e233c0164735606e1e6fe63b4e5"
+          }
+        },
+        {
+          "client_id": "953980278014-p5i98s469k77gf2knugdij6hbc56hjrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsOJHhNOLdAChUbyTyPCumDY6-IKFN9UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953980278014-p5i98s469k77gf2knugdij6hbc56hjrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
